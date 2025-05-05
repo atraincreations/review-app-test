@@ -38,6 +38,8 @@ function renderReviews() {
         <button onclick="addReply(${review.id})">Post Reply</button>
       </div>
 
+
+
       <div class="replies" id="replies-${review.id}">
         ${review.replies.map(reply => `
           <div class="reply" style="margin-left: 20px;">
